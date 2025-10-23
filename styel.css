@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.button{
+    background: none;
+    border: none;
+    outline: none;
+}
+main{
+    background-color: aquamarine;
+    height: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    border: 1.32px solid rgba(190, 190, 190, 1);
+    width: 340.6141357421875px;
+    height: 418.2432556152344px;
+    border-radius: 26.3px;
+    border-width: 1.32px;
+    padding-top: 13.15px;
+    padding-bottom: 23.15px;
+    opacity: 1;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    img{
+    width: 55.23472595214844px;
+    height: 55.23472595214844px;
+    border-radius: 50%;
+    opacity: 1;
+    }
+    .txt{
+        margin-left: 10px;
+    }
+}
+.card-body{
+    width: 100%;
+    img{
+    width: 335px;
+    height: 213px;
+    opacity: 1;
+    object-fit: cover;
+    }
+    .modal__show{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .modal__show img{
+        width: 700px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .modal__show::backdrop{
+        background-color: grey;
+    }
+    .modal__show2{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .modal__show2 img{
+        width: 700px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .modal__show2::backdrop{
+        background-color: grey;
+    }
+    .modal__show3{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .modal__show3 img{
+        width: 700px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .modal__show3::backdrop{
+        background-color: grey;
+    }
+}
+.card-footer{
+    padding: 16px;
+    .awesomes{
+        display: flex;
+        width: 300px;
+        margin-top: 10px;
+        input {
+            display: none;
+        }
+        .heart i {
+            font-size: 17px;
+            transition: color 0.3s ease;
+        }
+        .heart input:checked + i {
+            color: red;
+        }
+        .comment i {
+            font-size: 17px;
+            transition: color 0.3s ease;
+        }
+        .comment input:checked + i {
+            color: black;
+        }
+        .send i {
+            font-size: 17px;
+            transition: color 0.3s ease;
+        }
+        .send input:checked + i {
+            color: black;
+        }
+        .fa-bookmark input {
+            display: none;
+        }
+        .save i {
+            font-size: 17px;
+            transition: color 0.3s ease;
+        }
+        .save input:checked + i {
+            color: black;
+        }
+        .save{
+            margin-left: 100px;
+        }
+    }
+    i{
+        color: rgba(190, 190, 190, 1);
+    }
+    .text{
+        margin-top: 15px;
+        p{
+            margin-top: 15px;
+        }
+    }
+}
